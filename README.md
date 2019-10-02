@@ -30,7 +30,7 @@ for example,
 
 We would love to hear your experience working with open source and what you loved about this event. Do so by creating a **Markdown** file `{YourName.md}` in `/experience` folder in this repo.
 
-For example, `/experience/KetanLambat.md`
+For example, <a href="experience/KetanLambat.md"> /experience/KetanLambat.md</a>
 
 Also **do not** try to change the order or make any other changes.
 
