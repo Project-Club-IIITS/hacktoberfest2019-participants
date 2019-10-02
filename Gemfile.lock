@@ -245,6 +245,8 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
+  jemoji
+  rouge
 
 BUNDLED WITH
    2.0.2

@@ -4,19 +4,10 @@ description: >
   contribution and their opinion regarding the event organised in IIITS.
 
 safe: true
-exclude:
-  [
-    "css",
-    "icon",
-    "index.html",
-    "LICENSE",
-    "README.md",
-    "Gemfile",
-    "Gemfile.lock",
-  ]
+exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".gitignore"]
 
 timezone: "Asia/Kolkata"
-baseurl: "/experience"
+baseurl: ""
 
 defaults:
   - scope:
@@ -30,4 +21,8 @@ defaults:
 collections:
   experience:
     output: true
-    permalink: /:name
+    permalink: /experience/:name
+
+plugins:
+  - jemoji
+  - rouge
