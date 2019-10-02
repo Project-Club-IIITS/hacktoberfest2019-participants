@@ -1,0 +1,233 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-size: 2.5vw;
+    background: url("../img/back-left.png") left top no-repeat, url("../img/back-right.png") right top no-repeat;
+    background-attachment: fixed;
+    background-color: #152347;
+    background-size: contain;
+    background-blend-mode: screen;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#navbar {
+    width: 100%;
+    clear: both;
+    height: 1em;
+    font-size: 4em;
+}
+
+#iotalogo {
+    float: left;
+    width: 1em;
+    height: 0.6em;
+    margin-left: 0.3em;
+    position: relative;
+}
+
+#iotalogo img {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#logo {
+    float: right;
+    width: 3.3em;
+    height: 1em;
+    margin-right: 0.3em;
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#data {
+    width: 100%;
+    padding: 0 3em;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding-bottom: 5em;
+}
+
+#data p {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+p#city {
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    color: #ff00aa;
+    text-shadow: 0.02em -0.02em 0.01em #ea02a1,
+        -0.02em -0.02em 0.01em #ea02a1;
+}
+
+p#name {
+    margin-top: 0.2em;
+    font-size: 1em;
+    color: #fafafa;
+    text-shadow: 1px -1px 2px #fff,
+        -1px -1px 2px #fff;
+}
+
+#nameList {
+    font-size: 1em;
+    color: #fafafa;
+    text-align: center;
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    position: relative;
+    margin: 0;
+    height: 1em;
+    padding: 0 0.4em;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Turret Road', cursive;
+}
+
+li::before {
+    position: absolute;
+    content: "";
+    height: 0.2em;
+    width: 0.2em;
+    background: #ffffff;
+    border-radius: 50%;
+    left: -0.25em;
+    top: 0.35em;
+}
+
+li::after {
+    position: absolute;
+    content: "";
+    height: 0.2em;
+    width: 0.2em;
+    background: #ffffff;
+    border-radius: 50%;
+    right: -0.25em;
+    top: 0.35em;
+}
+
+li a {
+    color: #e0ab38;
+    margin: 0;
+    padding: 0 0.1em;
+    font-size: 0.8em;
+    height: 100%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+li a:hover {
+    background-color: rgba(255, 66, 132, 0.123);
+    color: #fe7f5d;
+    font-size: 1em;
+    padding: 0;
+    transition: transform .1s;
+    text-shadow: 0.02em -0.02em 0.01em #9e17d32a,
+        -0.02em -0.02em 0.01em #59099b8e;
+
+}
+
+#footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    font-size: 0.5em;
+    margin-top: 5em;
+    background: #1f2d4f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#footer img {
+    height: 5em;
+    width: 15em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#footer div {
+    text-align: center;
+    height: 5em;
+    padding: 0 0.6em 0 0;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#footer div a {
+    padding: 0;
+    margin: 0;
+    height: 2.2em;
+    width: 2.2em;
+    padding: 0 0.3em;
+    display: inline-block;
+}
+
+#footer div a img {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    body {
+        font-size: 2.8vw;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    body {
+        font-size: 3.2vw;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 600px) {
+    body {
+        font-size: 3.8vw;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 599px) {
+    body {
+        font-size: 4.3vw;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 4.8vw;
+    }
+}
