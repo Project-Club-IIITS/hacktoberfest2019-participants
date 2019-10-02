@@ -16,7 +16,7 @@
 
         #header {
             width: 100%;
-            background: url("/img/texture.jpg");
+            background: url("{{ site.url }}/img/texture.jpg");
             background-repeat: repeat;
             padding: 70px;
             box-sizing: border-box;
@@ -75,22 +75,22 @@
         <div id="social">
             {%- if page.github -%}
             <a href="https://github.com/{{ page.github }}">
-                <img src="{{ site.baseurl }}/img/github.svg">
+                <img src="{{ site.url }}/img/github.svg">
             </a>
             {%- endif -%}
             {%- if page.linkedin -%}
             <a href="https://linkedin.com/{{ page.linkedin }}">
-                <img src="{{ site.baseurl }}/img/linkedin.svg">
+                <img src="{{ site.url }}/img/linkedin.svg">
             </a>
             {%- endif -%}
             {%- if page.twitter -%}
             <a href="https://twitter.com/{{ page.twitter }}">
-                <img src="{{ site.baseurl }}/img/twitter.svg">
+                <img src="{{ site.url }}/img/twitter.svg">
             </a>
             {%- endif -%}
             {%- if page.facebook -%}
             <a href="https://www.facebook.com/{{ page.facebook }}">
-                <img src="{{ site.baseurl }}/img/facebook.svg">
+                <img src="{{ site.url }}/img/facebook.svg">
             </a>
             {%- endif -%}
         </div>

@@ -7,7 +7,7 @@ safe: true
 exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".gitignore"]
 
 timezone: "Asia/Kolkata"
-baseurl: "https://project-club-iiits.github.io/hacktoberfest2019-participants"
+url: "https://project-club-iiits.github.io/hacktoberfest2019-participants"
 
 defaults:
   - scope:
