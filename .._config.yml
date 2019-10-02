@@ -11,19 +11,10 @@ exclude:
     "index.html",
     "LICENSE",
     "README.md",
-    "img",
     "Gemfile",
     "Gemfile.lock",
   ]
 
-include:
-  [
-    "img/texture.jpg",
-    "img/linkedin.svg",
-    "img/facebook.svg",
-    "img/twitter.svg",
-    "img/github.svg",
-  ]
 timezone: "Asia/Kolkata"
 baseurl: "/experience"
 
