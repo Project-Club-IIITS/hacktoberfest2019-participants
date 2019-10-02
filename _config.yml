@@ -1,0 +1,42 @@
+title: HacktoberFest'19 IIITS
+description: >
+  Site for students to share there experience about open source
+  contribution and their opinion regarding the event organised in IIITS.
+
+safe: true
+exclude:
+  [
+    "css",
+    "icon",
+    "index.html",
+    "LICENSE",
+    "README.md",
+    "img",
+    "Gemfile",
+    "Gemfile.lock",
+  ]
+
+include:
+  [
+    "img/texture.jpg",
+    "img/linkedin.svg",
+    "img/facebook.svg",
+    "img/twitter.svg",
+    "img/github.svg",
+  ]
+timezone: "Asia/Kolkata"
+baseurl: "/experience"
+
+defaults:
+  - scope:
+      path: ""
+      type: "experience"
+    values:
+      layout: "expr"
+      title: "Coder"
+      tag: "Full Time Dev :)"
+
+collections:
+  experience:
+    output: true
+    permalink: /:name

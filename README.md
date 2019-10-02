@@ -26,13 +26,4 @@ for example,
 
 `Adding Ketan Lambat`
 
-## Share Your Experience
-
-We would love to hear your experience working with open source and what you loved about this event. Do so by creating a **Markdown** file `{YourName.md}` in `/experience` folder in this repo.
-
-For example, `/experience/KetanLambat.md`
-
-Also **do not** try to change the order or make any other changes.
-
-
 **Let the Hack begin** :octocat:

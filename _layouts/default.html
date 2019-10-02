@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>{{ page.title }}</title>
+    <style>
+        a {
+            text-decoration: none;
+            color: #0074d9;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+        }
+
+        #header {
+            width: 100%;
+            background: url("./img/texture.jpg");
+            background-repeat: repeat;
+            padding: 40px;
+            box-sizing: border-box;
+            font-size: 50px;
+            color: #fff;
+        }
+
+        #content {
+            margin: 0 auto;
+            width: 80%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        {{ page.title }}
+    </div>
+    <div id="content">
+        {{ content }}
+    </div>
+</body>
+
+</html>
