@@ -25,11 +25,4 @@ collections:
 
 plugins:
   - jemoji
-  - rouge
-
-markdown: kramdown
-highlighter: rouge
-
-kramdown:
-  syntax_highlighter: rouge
-  fenced_code_blocks: true
+  - github-pages
