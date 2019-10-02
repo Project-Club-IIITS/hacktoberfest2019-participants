@@ -35,3 +35,5 @@ We would love to here from you. Use `markdown` to pen down your experience.
 Few selected experiences get a chance to get featured in our website and win sticker swags too. :sunglasses:
  
 [Add your experience!](https://project-club-iiits.github.io/hacktoberfest2019-participants/experience)
+
+[See what others have to say](https://project-club-iiits.github.io/hacktoberfest2019-participants/experiences)

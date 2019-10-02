@@ -1,0 +1,77 @@
+---
+---
+<html>
+
+<head>
+    <title>Experiences</title>
+    <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/syntax.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap" rel="stylesheet">
+    <style>
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        body {
+            margin: 50px 0;
+            padding: 0;
+            font-size: 30px;
+            background: url("{{ site.url }}/img/texture.jpg");
+        }
+
+        #header {
+            width: 100%;
+            color: #fff;
+            font-size: 1.9em;
+            padding: 10px;
+            text-align: center;
+            font-family: 'Cabin Sketch', cursive;
+        }
+
+        #content {
+            margin: 0 auto;
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .title {
+            color: #fff;
+            width: 50%;
+            font-weight: bold;
+            padding: 8px 0;
+            text-align: center;
+        }
+
+        .tag {
+            color: #999;
+            font-weight: lighter;
+            font-size: 0.7em;
+            text-align: center;
+            vertical-align: baseline;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        What they have to say...
+    </div>
+    <br>
+    <br>
+    <div id="content">
+        {% for a in site.experience %}
+        <div class="title">
+            <a href="{{ site.url }}{{ a.url }}">{{ a.title }}</a>
+            <div class="tag">
+                {{ a.tag }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+
+</html>
