@@ -1,4 +1,4 @@
-# Participants of Hacktoberfest Event at IIITS
+# Participants of Hacktoberfest Event at IIIT Sri City
 
 To add your name in the list just edit the `index.html` file as given below and  **send us a PR** :smiley: :sunglasses:
 
