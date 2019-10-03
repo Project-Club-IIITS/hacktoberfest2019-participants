@@ -9,6 +9,8 @@ exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".gitignore"]
 timezone: "Asia/Kolkata"
 url: "https://project-club-iiits.github.io/hacktoberfest2019-participants"
 
+exclude: [".gitignore", "README.md", "Gemfile", "Gemfile.lock", "LICENSE"]
+
 defaults:
   - scope:
       path: ""
