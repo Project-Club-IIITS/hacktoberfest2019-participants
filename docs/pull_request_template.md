@@ -21,3 +21,5 @@ Check your contributions in THIS Pull Request
 
 use [x] (no spaces) to mark a tick, For example
 - [x] Task Done
+
+View the PR in the Preview tab :arrow_up:
