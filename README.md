@@ -30,7 +30,7 @@ for example,
 
 ## Share your experience with us
 
-We would love to here from you. Use `markdown` to pen down your experience.
+We would love to hear from you. Use `markdown` to pen down your experience.
 
 Few selected experiences get a chance to get featured in our website and win sticker swags too. :sunglasses:
  
