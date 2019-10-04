@@ -12,4 +12,4 @@ oopsy, I mean
 **Hacktoberfest**
 It is an amazing initiaive by DigitalOcean which gives a chance to aspiring developers like us, to help each other.
 It is also an awesome experience for me, to meet with other developers on either their or our own repositories and work together. 
-To conclude: (Opensource && Hacktoberfest) == :sparkling_heart:
+To conclude: **(Opensource && Hacktoberfest) == :sparkling_heart**:
