@@ -17,4 +17,4 @@ It is an amazing initiaive by DigitalOcean which gives a chance to aspiring deve
 
 It is also an awesome experience for me, to meet with other developers on either their or our own repositories and work together. 
 
-To conclude: **(Opensource && Hacktoberfest) == :sparkling_heart**:
+To conclude: **(Opensource && Hacktoberfest) ==** :sparkling_heart:
