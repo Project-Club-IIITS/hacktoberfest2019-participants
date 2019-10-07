@@ -1,30 +1,8 @@
----
-layout: default
-title: "HacktoberFest Event 2019 - IIITS"
----
-
-## Share Your Experience
-
-We would love to hear your experience working with open source and what you loved about this event. Do so by creating a **Markdown** file `{yourname.md}` in `/_experience` folder in this repo.
-
-For example, `/_experience/ketanlambat.md`
-
-Please follow this format for the file:
-
-```md
----
-title: {Your Name}
-tag: {A tagline for yourself}
-github: {your_github_id}
-linkedin: {your_linkedin_id}
-twitter: {your_twitter_id}
-facebook: {your_facebook_id}
----
-    **Your Markdown Here**
-```
-
-Only **title** and **tag** is mandatory. Both should be string and try to limit tag to 4-5 words.
-
-Go ahead and share your experience. After your **PR** is successfully merged, view it [here](https://project-club-iiits.github.io/hacktoberfest2019-participants/experiences).
-
-**<center>IOTA, IIIT Sri City</center>**
+title: {Ananya}
+tag: {Open source Contibutor}
+github: {https://github.com/ananyaduggal}
+linkdin: {https://www.linkedin.com/in/ananya-4244b3169/}
+**This was my second time participating in Hacktoberfest and it was really a great experience to contribute in Open Source Projects.**
+**From pariticing in hacktoberfest you learn how to contibute in Open Source projects and find out really good projects people have made.** 
+**It was a great experience for me to meet with other developers on either their or our own repositories and work together**
+**Thanks DigitalOcean for providing me this opportunity** 
