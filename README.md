@@ -1,8 +1,11 @@
-# Participants of Hacktoberfest Event at IIITS
+# Participants of Hacktoberfest Event at IIIT Sri City
+
+
+**Only PRs from the students from IIIT Sri City are allowed**
 
 To add your name in the list just edit the `index.html` file as given below and  **send us a PR** :smiley: :sunglasses:
 
-Please add your name in the format specified below at the end of the list.
+Please add your name in the format specified below at the **end of the list**.
 
 ```html
 
