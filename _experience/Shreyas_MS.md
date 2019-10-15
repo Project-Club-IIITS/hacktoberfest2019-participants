@@ -1,7 +1,7 @@
 ---
 title: "Shreyas"
 tag: "0110 1001 0100 0010 0000"
-github: "github.com/Shreyas-MS"
+github: "Shreyas-MS"
 ---
 
 This was really fun! 
