@@ -4,7 +4,7 @@ description: >
   contribution and their opinion regarding the event organised in IIITS.
 
 safe: true
-exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".gitignore"]
+exclude: ["LICENSE", "README.md", "Gemfile", "Gemfile.lock", ".gitignore", "docs"]
 
 timezone: "Asia/Kolkata"
 url: "https://project-club-iiits.github.io/hacktoberfest2019-participants"
