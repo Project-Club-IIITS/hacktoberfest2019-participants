@@ -6,4 +6,4 @@ linkedin: "in/aditiverma88/"
 
 ---
 
-As a firt-timer, this was a fun experience. It was great to learn new stuff.
+As a first-timer, this was a fun experience. It was great to learn new stuff.
