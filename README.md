@@ -3,7 +3,7 @@
 
 **Only PRs from the students from IIIT Sri City are allowed**
 
-To add your name in the list just edit the `index.html` file as given below and  **send us a PR** :smiley: :sunglasses:
+To add your name to the list just edit the `index.html` file as given below and  **send us a PR** :smiley: :sunglasses:
 
 Please add your name in the format specified below at the **end of the list**.
 
@@ -29,13 +29,13 @@ for example,
 
 `Adding Ketan Lambat`
 
-**Let the Hack begin** :octocat:
+**Let the Hack begin** :hack:
 
 ## Share your experience with us
 
 We would love to hear from you. Use `markdown` to pen down your experience.
 
-Few selected experiences get a chance to get featured in our website and win sticker swags too. :sunglasses:
+Few selected experiences get a chance to get featured on our website and win sticker swags too. :sunglasses:
  
 [Add your experience!](https://project-club-iiits.github.io/hacktoberfest2019-participants/experience)
 
